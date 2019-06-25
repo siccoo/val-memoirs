@@ -7,7 +7,7 @@ export default class About extends Component {
         return (
             <div>
                 <Image src="asset/omotola.jpg" className="header-image" />
-                <Grid>
+                
                     <Col xs={12} sm={8} smOffset={2}>
                     <Image src="asset/belisco.jpg" className="about-profile-pic" rounded />
                     <h3>Mrs Gift Onyinye</h3>
@@ -17,7 +17,7 @@ export default class About extends Component {
 
                     <p></p>
                     </Col>
-                </Grid>
+                
             </div>
         );
     };

@@ -7,7 +7,7 @@ export default class Gallery extends Component {
         return (
             <div>
                 <Image src="asset/school-boy.jpg" className="header-image" />
-                <Grid>
+                
                     <h2>Gallery Photoshot</h2>
                     <Row>
                         <Col xs={12} sm={8} className="main-section">
@@ -35,7 +35,7 @@ export default class Gallery extends Component {
                         <p>Image of Tools used Head Tie making owned by Judic-O Fashion Homes</p>
                         </Col>
                     </Row>
-                </Grid>
+            
             </div>
         );
     };
